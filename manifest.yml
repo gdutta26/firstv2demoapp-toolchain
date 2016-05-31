@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mycloud.com
+  name: firstv2demoapp
+  host: firstv2demoapp
+  disk_quota: 1024M
+  services:
+  - firstv2demoapp-cloudantNoSQLDB
